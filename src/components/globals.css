@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter-app {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .incrementing-counter {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .incrementing-counter p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .incrementing-counter button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .incrementing-counter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .incrementing-counter button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
